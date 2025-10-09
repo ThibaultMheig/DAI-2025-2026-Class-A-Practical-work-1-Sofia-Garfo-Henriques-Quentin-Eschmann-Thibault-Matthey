@@ -1,7 +1,9 @@
 package ch.heigvd.project1;
 
+
+
 public class App {
-    public static void main(String[] args) {
+    static void Test() {
         System.out.println("Hello World!");
     }
 }
