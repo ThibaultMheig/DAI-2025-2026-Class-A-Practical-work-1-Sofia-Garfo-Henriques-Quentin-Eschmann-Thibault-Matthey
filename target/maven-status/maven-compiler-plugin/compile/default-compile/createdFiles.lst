@@ -1,2 +1,7 @@
+ch/heigvd/project1/ios/read.class
+ch/heigvd/project1/commands/Occurences.class
+ch/heigvd/project1/ios/write.class
+ch/heigvd/project1/commands/Stats.class
+ch/heigvd/project1/commands/Root.class
 ch/heigvd/project1/App.class
 ch/heigvd/project1/Main.class
