@@ -8,6 +8,7 @@ public class Read {
     //source : https://stackoverflow.com/questions/4716503/reading-a-plain-text-file-in-java
     public static String readFile(String fileName){
         StringBuilder sb = new StringBuilder();
+        String text = null;
 
         try ( BufferedReader br = new BufferedReader(new FileReader(fileName, StandardCharsets.UTF_8)) ){
             String line = br.readLine();
@@ -18,10 +19,13 @@ public class Read {
                 line = br.readLine();
             }
 
-            return sb.toString();
+            text =  sb.toString();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.err.println("Error: " + e.getMessage());
+            System.exit(-1);
         }
+
+        return text;
     }
 
 }
