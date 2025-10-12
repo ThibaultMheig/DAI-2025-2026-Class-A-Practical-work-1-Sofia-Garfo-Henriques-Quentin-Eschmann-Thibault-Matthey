@@ -36,7 +36,12 @@ public class Occurences implements Runnable {
 
             try{
                 BufferedWriter br = Write.open(parent.getOFileName());
-                br.write("There are " + indexes.size() + " occurences of the word \"" + word + "\". They are at positions: " + indexes);
+                br.write("There are " + indexes.size() + " occurences of the word \"" + word + "\".");
+                
+                if(indexes.size() > 0){
+                    br.write(" They are at positions: " + indexes);
+                }
+                
                 br.close();
             } catch (IOException e) {
                 System.err.println("Error: " + e.getMessage());
