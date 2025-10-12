@@ -13,11 +13,18 @@ import picocli.CommandLine;
         mixinStandardHelpOptions = true)
 public class Root implements Runnable{
     @CommandLine.Parameters(index = "0", description = "The name of the input file.")
-    protected String ifname;
+    protected  String  ifname;
 
     @CommandLine.Parameters(index = "1", description = "The name of the output file.")
-    protected String ofname;
+    protected  String  ofname;
 
+    public  String getIFileName(){
+        return ifname;
+    }
+
+    public  String getOFileName(){
+        return ofname;
+    }
     public void run() {
         System.out.println(ifname + " " + ofname);
     }
