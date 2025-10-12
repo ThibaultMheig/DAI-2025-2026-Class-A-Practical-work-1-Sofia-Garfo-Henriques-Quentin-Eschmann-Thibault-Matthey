@@ -3,9 +3,17 @@ package ch.heigvd.project1.ios;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * text file reader
+ */
 public class Read {
 
     //source : https://stackoverflow.com/questions/4716503/reading-a-plain-text-file-in-java
+    /**
+     * reads a text file
+     * @param String fileName, path to the input file
+     * @return String, content of the text file
+     */
     public static String readFile(String fileName){
         StringBuilder sb = new StringBuilder();
         String text = null;

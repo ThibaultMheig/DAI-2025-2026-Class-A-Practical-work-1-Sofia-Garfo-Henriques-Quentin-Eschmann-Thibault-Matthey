@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Implementation of occurence subcommand
+ */
 @CommandLine.Command(name = "occurences", description = "Find all the words occurences in a text file")
 public class Occurences implements Runnable {
 
@@ -21,6 +24,9 @@ public class Occurences implements Runnable {
     )
     protected String word;
 
+    /**
+     * subcommand core
+     */
     public void run(){
             String input = Read.readFile(parent.getIFileName());
             List<Integer> indexes = new ArrayList<>();

@@ -2,6 +2,10 @@ package ch.heigvd.project1.commands;
 
 import picocli.CommandLine;
 
+
+/**
+ * Picocli command line argument configuration
+ */
 @CommandLine.Command(
         description = "DAI project01",
         version = "1.0.0",
