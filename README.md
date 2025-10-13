@@ -64,6 +64,8 @@ java -jar <compiled jar file> <path to input file> <output file name> <subcomman
 
 ## Example
 
+An example input file is present [here](src/test/java/ch/heigvd/project1/Input.txt).
+
 ### Stats
 
 Provides statistics about your input file.
