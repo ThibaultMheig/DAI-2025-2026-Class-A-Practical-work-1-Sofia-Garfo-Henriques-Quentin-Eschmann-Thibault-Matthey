@@ -37,6 +37,9 @@ The source code is organized as follows:
 First you will have to compile the project. Here is a quick guide onhow to do it using maven.
 
 1. Clone the repository
+```bash
+git clone git@github.com:ThibaultMheig/DAI-2025-2026-Class-A-Practical-work-1-Sofia-Garfo-Henriques-Quentin-Eschmann-Thibault-Matthey.git
+```
 2. Navigate to the project root directory
 3. Build using Maven:
 ```bash
