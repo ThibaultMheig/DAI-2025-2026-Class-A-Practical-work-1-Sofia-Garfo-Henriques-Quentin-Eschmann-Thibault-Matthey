@@ -114,6 +114,6 @@ There are 5 occurrences of the word "test". They are at positions: [12, 54, 128,
 
 ## Sources
 
-- Github Copilot
-- [StackOverflow](https://stackoverflow.com)
-- [W3schools](https://w3schools.com)
+- Github Copilot : writing documentation
+- [StackOverflow](https://stackoverflow.com) : java api usage & code examples
+- [W3schools](https://w3schools.com) : java api usage
